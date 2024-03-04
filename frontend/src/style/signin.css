@@ -1,0 +1,26 @@
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.sign-form > * {
+  margin: 10px 0px;
+  padding: 1rem 1.25rem;
+}
+
+.line {
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 0px;
+  border-radius: 1rem;
+}
+
+.btn-show {
+  margin: 10px 0px 0px 0px;
+  color: rgb(211, 23, 57);
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,82 @@
+.notification {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  background-color: rgb(238, 238, 238);
+}
+
+.notification .icon {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  color: white;
+}
+
+.notification .btn-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  height: 15px;
+  width: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.notification .btn-toggle p {
+  color: white;
+  font-weight: bold;
+}
+
+.notification .dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  border-radius: 1rem;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.notification .dropdown .item .hot {
+  background-color: red;
+  width: 2px;
+  height: 30px;
+  border-radius: 1rem;
+}
+
+.notification .dropdown .item div {
+  display: flex;
+  gap: 5px;
+  max-width: 300px;
+  width: 300px;
+  word-break: break-all;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.notification .dropdown .item:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.notification .dropdown .item div p {
+  margin-top: 5px;
+}
+
+.notification .dropdown .item img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}

@@ -1,0 +1,133 @@
+.post {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.post .left {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
+}
+
+.post .left .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: rgb(42, 42, 42);
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
+.post .left .image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 0.5em;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.post .left .featured {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.post .left .featured .btn-vote {
+  padding: 0.25em 1.25em;
+  background-color: rgb(225, 225, 225);
+  border-style: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.post .left .featured .selected {
+  background-color: rgb(227, 43, 68);
+  color: white;
+}
+
+.post .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.post .right .comments {
+  height: 100%;
+  background-color: rgb(231, 231, 231);
+  margin: 10px 0px;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  max-height: 550px;
+  overflow-y: auto;
+  gap: 5px;
+}
+
+.post .right .comments .comment {
+  width: fit-content;
+  word-wrap: break-word;
+  padding: 10px;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.post .right .comments .comment .user {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.post .right .comments .comment .user img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.post .right form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.post .right form input {
+  width: 100%;
+}
+
+.post-update {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+}
+
+.post-update h1 {
+  margin-bottom: 10px;
+}
+
+.post-update textarea {
+  resize: none;
+  height: 50px;
+}
+
+.post-update input {
+  padding: 1em, 1em;
+}
+
+.post-update button {
+  padding: 10px;
+}

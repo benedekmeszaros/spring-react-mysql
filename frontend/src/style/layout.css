@@ -1,0 +1,142 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(200, 200, 200);
+  height: 6vh;
+  padding: 0px 25px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+nav .drop-down {
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  border-radius: 1rem;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+nav .controlls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+nav .btn-sign-in {
+  background-color: rgb(227, 43, 68);
+  color: white;
+  padding: 0.25em 0.75em;
+  border-style: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav .drop-down button {
+  width: 100%;
+  padding: 0.25em 0.5em;
+  border: none;
+  background-color: white;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+nav .drop-down button:hover {
+  border: none;
+  background-color: rgb(231, 231, 231);
+}
+
+nav .icon {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  height: 94vh;
+  width: 100%;
+}
+
+.sidebar {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: rgb(200, 200, 200);
+  padding: 25px 0px;
+  margin: 0px;
+  width: 250px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar > a {
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.sidebar > a:hover {
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.not-found {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found h1 {
+  font-size: 100px;
+  color: rgb(227, 43, 68);
+}
+
+.not-found p {
+  font-size: 50px;
+  color: rgb(134, 128, 128);
+}

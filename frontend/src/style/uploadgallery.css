@@ -1,0 +1,47 @@
+.upload-gallery {
+  width: 500px;
+}
+
+.upload-gallery h1 {
+  margin-bottom: 15px;
+}
+
+.upload-gallery input[type="text"] {
+  padding: 0.25em 0.5em;
+}
+
+.upload-gallery textarea {
+  height: 50px;
+  width: 100%;
+  resize: none;
+}
+
+.upload-gallery form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upload-gallery .categories {
+  display: flex;
+  overflow-x: auto;
+  padding: 0px 0px 15px 0px;
+  gap: 3px;
+}
+
+.upload-gallery .category-toggle {
+  padding: 0.25em 1.25em;
+  background-color: rgb(225, 225, 225);
+  border-style: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.upload-gallery .toggled {
+  background-color: rgb(227, 43, 68);
+  color: white;
+}
+
+.upload-gallery .btn-create {
+  padding: 1em;
+}
