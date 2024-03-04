@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "cross.allowed-origin",
+    "type": "java.lang.String",
+    "description": "Allowed cross origin source."
+  },
+  {
+    "name": "persistence.file-path",
+    "type": "java.lang.String",
+    "description": "Location of the file resources."
+  }
+]}
